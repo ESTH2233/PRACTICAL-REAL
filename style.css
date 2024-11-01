@@ -20,8 +20,6 @@ nav {
   margin: 0 20px;
 }
 
-
-
 .link {
   list-style: none;
   display: flex;
@@ -52,40 +50,37 @@ button {
   margin: 4px 70px;
 }
 
-
 .phrase {
   width: 100%;
   height: 100vh;
-  background: url(images/9250480.jpg) no-repeat center / cover fixed;
+  background: url(images/9250480.jpg) no-repeat center / cover;
   color: white;
   position: relative;
-  padding-top: 200px;
-
+  top: 0;
 }
 
 .phrase .phrase1 {
   font-size: 50px;
-  margin-top: -10px;
-  margin-bottom: 30px;
-  margin-left: 20px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 650px;
   color: white;
   text-align: center;
-  }
+}
 
 .phrase .phrase2 {
+  position: absolute;
   font-size: 20px;
   color: white;
   text-align: center;
-  margin-left: 30px;
-  margin-top: 240px;
+  margin-top: 450px;
+  margin-left: 630px;
 }
 
-.rap-intro{
+.rap-intro {
   text-align: center;
   margin: 30px auto;
 }
-
-
 
 .yo a {
   text-decoration: none;
@@ -99,9 +94,6 @@ button {
   color: black;
   transition: 0.3s ease-in;
 }
-
-
-
 
 .to {
   color: green;
@@ -153,7 +145,6 @@ img .image {
 header .artistinfo {
   padding: 20px 0px 20px 0px;
   font-size: 25px;
- 
 }
 
 .content img {
@@ -321,8 +312,11 @@ footer p i {
   color: green;
 }
 
-#check{display: none;}
-.open,.close {
+#check {
+  display: none;
+}
+.open,
+.close {
   position: absolute;
   color: white;
   cursor: pointer;
@@ -344,7 +338,7 @@ footer p i {
 /* mobile view smaller than 768px */
 
 @media (max-width: 768px) {
-  .link{
+  .link {
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -358,110 +352,131 @@ footer p i {
     transition: all 0.5s ease-in-out;
   }
 
-  .link li {margin-top: 40px;}
-  .link li a {padding: 10px; font-size: 16px;}
-  .open, .close{
+  .link li {
+    margin-top: 40px;
+  }
+  .link li a {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .open,
+  .close {
     display: block;
   }
-  #check:checked ~ .link{right: 0;}
-
-  nav button{
-    display: none;
- 
+  #check:checked ~ .link {
+    right: 0;
   }
 
- nav header {
-  font-size: 20px;
-  font-weight: bold;
- }
+  nav button {
+    display: none;
+  }
 
- nav {
-  padding: 10px 20px;
- }
+  nav header {
+    font-size: 20px;
+    font-weight: bold;
+  }
 
- .rap .rap-container {
-  margin-left: 70px;
- }
- .phrase .phrase1{
-  font-size: 40px;
- }
-.div {
-  padding: 40px 20px;
-}
+  nav {
+    padding: 10px 20px;
+  }
 
-.div .about {
-  flex-direction: column;
-}
-.para {
-  font-size: 18px;
-  line-height: 1.6;
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-}
+  .rap {
+    padding: 20px;
+  }
 
-.div .image{
-  width: 100%;
-  text-align: center;
-}
-.div .image img {
-  max-width: 90%;
-  margin: 10px auto;
-}
+  .rap-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
 
-.streaming {
-  padding: 50px 20px;
-}
-.streaming-container{
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-}
+  .rap-container iframe {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
 
-.cench {
-  width: 100%;
-  height: auto;
-}
-.cench img {
-  width: 200px;
-}
+  .phrase {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .phrase .phrase1 {
+    font-size: 40px;
+  }
+  .div {
+    padding: 40px 20px;
+  }
 
-.content img {
-  width: 315px;
-  height: 300px;
-  padding: 20px 10px;
-  margin: 10px auto;
-  display: block;
-}
+  .div .about {
+    flex-direction: column;
+  }
+  .para {
+    font-size: 18px;
+    line-height: 1.6;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
 
-.content {
-  flex-direction: column;
-  align-items: center;
-}
+  .div .image {
+    width: 100%;
+    text-align: center;
+  }
+  .div .image img {
+    max-width: 90%;
+    margin: 10px auto;
+  }
 
-/* adjusting the header for artist info */
-header .artistinfo{
-  padding: 15px;
-  font-size: 20px;
-  text-align: center;
-}
+  .streaming {
+    padding: 50px 20px;
+  }
+  .streaming-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
 
-.contact-form {
-  width: 90%;
-  padding: 30px;
-  margin: 30px auto;
-}
+  .cench {
+    width: 100%;
+    height: auto;
+  }
+  .cench img {
+    width: 200px;
+  }
 
-.form-group label {
-  font-size: 16px;
-}
+  .content img {
+    width: 315px;
+    height: 300px;
+    padding: 20px 10px;
+    margin: 10px auto;
+    display: block;
+  }
 
-.form-group label,
-.form-group textarea {
-  padding: 10px;
-  font-size: 16px;
-}
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
 
+  /* adjusting the header for artist info */
+  header .artistinfo {
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+  }
 
+  .contact-form {
+    width: 90%;
+    padding: 30px;
+    margin: 30px auto;
+  }
 
+  .form-group label {
+    font-size: 16px;
+  }
 
- 
+  .form-group label,
+  .form-group textarea {
+    padding: 10px;
+    font-size: 16px;
+  }
 }
