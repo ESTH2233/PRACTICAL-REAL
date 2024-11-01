@@ -373,11 +373,13 @@ footer p i {
   }
 
   .rap .rap-container {
+    margin-left: 70px;
     position: relative;
   }
 
   .phrase {
     position: relative;
+    max-width: 100%;
   }
   .phrase .phrase1 {
     font-size: 40px;
