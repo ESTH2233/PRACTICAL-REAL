@@ -399,10 +399,10 @@ footer p i {
   }
 
   .phrase {
-    width: 100vw;
+    width: 120vw;
     height: 100vh;
     overflow: hidden;
-    background-size: 50%;
+    background-size: 100%;
     width: 100%;
     background: url(images/Spotify-cover-photo.png) no-repeat center / cover;
 
