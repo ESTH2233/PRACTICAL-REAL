@@ -374,6 +374,7 @@ footer p i {
   nav header {
     font-size: 20px;
     font-weight: bold;
+    color: black;
   }
 
   nav {
@@ -401,6 +402,10 @@ footer p i {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    background-size: 50%;
+    width: 100%;
+    background: url(images/Spotify-cover-photo.png) no-repeat center / cover;
+
   }
   .phrase .phrase1 {
     font-size: 40px;
