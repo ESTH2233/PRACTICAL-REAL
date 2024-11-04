@@ -421,6 +421,12 @@ footer p i {
   }
   .phrase .phrase1 {
     font-size: 40px;
+    margin-top: 200px;
+    margin-left: 200px;
+  }
+  .phrase .phrase2{
+    margin-top: 470px;
+    margin-left: 200px;
   }
   .div {
     padding: 40px 20px;
