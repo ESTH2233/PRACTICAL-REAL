@@ -352,6 +352,14 @@ footer p i {
     transition: all 0.5s ease-in-out;
   }
 
+  * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+
   .link li {
     margin-top: 40px;
   }
@@ -447,8 +455,8 @@ footer p i {
     padding: 10px;
   }
   .cench img {
-    width: 100%;
-    height: auto;
+    width: 150px;
+    height: 150px;
   }
 
   .content img {
