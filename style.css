@@ -496,12 +496,12 @@ footer p i {
   }
 
   .but {
-    padding: 10px 10px 10px 10px;
+    padding: 20px 10px 20px 10px;
     font-size: 14px;
   }
 
   footer {
     width: 100wv;
-    font: 14px;
+    font: 10px;
   }
 }
