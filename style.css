@@ -371,6 +371,10 @@ footer p i {
   .close {
     display: block;
   }
+
+  .open{
+    right: 70px;
+  }
   #check:checked ~ .link {
     right: 0;
   }
