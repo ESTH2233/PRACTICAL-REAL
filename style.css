@@ -373,7 +373,7 @@ footer p i {
   }
 
   .open{
-    right: 70px;
+    right: 80px;
   }
   #check:checked ~ .link {
     right: 0;
@@ -514,6 +514,6 @@ footer p i {
 
   footer {
     width: 100wv;
-    font: 10px;
+    font-size: 12px;
   }
 }
