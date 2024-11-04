@@ -447,7 +447,7 @@ footer p i {
     padding: 10px;
   }
   .cench img {
-    max-width: 200px;
+    width: 200px;
     height: 200px;
   }
 
@@ -485,5 +485,9 @@ footer p i {
   .form-group textarea {
     padding: 10px;
     font-size: 16px;
+  }
+
+  footer {
+    width: 100wvS;
   }
 }
