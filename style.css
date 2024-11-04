@@ -459,6 +459,14 @@ footer p i {
     height: 200px;
   }
 
+  .cench h3 {
+    font-size: 16px;
+  }
+
+  .cench p {
+    font-size: 14px;
+  }
+
   .content img {
     width: 315px;
     height: 300px;
