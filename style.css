@@ -403,7 +403,7 @@ footer p i {
 
   .rap-container iframe {
     width: 100%;
-    height: auto;
+    height: 300px;
     margin-bottom: 10px;
   }
 
@@ -468,8 +468,8 @@ footer p i {
   }
 
   .content img {
-    width: 315px;
-    height: 300px;
+    width: 300px;
+    height: 250px;
     padding: 20px 10px;
     margin: 10px auto;
     display: block;
