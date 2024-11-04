@@ -439,14 +439,15 @@ footer p i {
   }
   .streaming-container {
     grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
   }
 
   .cench {
-    width: 100%;
-    height: auto;
+   text-align: center; 
   }
   .cench img {
-    width: 100px;
+    max-width: 100%;
+    height: auto;
   }
 
   .content img {
