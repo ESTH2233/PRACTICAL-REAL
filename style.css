@@ -438,7 +438,7 @@ footer p i {
     padding: 50px 20px;
   }
   .streaming-container {
-    grid-template-columns: repeat(2, 1frss);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .cench {
