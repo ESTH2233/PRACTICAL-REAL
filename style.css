@@ -18,6 +18,8 @@ nav {
   background-color: none;
   flex-wrap: wrap;
   margin: 0 20px;
+  /* box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+  border: 1.5px solid rgba(255, 255, 255, 0.1); */
 }
 
 .link {
