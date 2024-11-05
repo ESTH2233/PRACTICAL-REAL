@@ -330,7 +330,10 @@ footer p i {
 
 /* mobile view smaller than 768px */
 
-@media (max-width: 768px) {
+
+@media (max-width: 768px)  {
+  
+
   .link {
     flex-direction: column;
     align-items: center;
@@ -391,6 +394,10 @@ footer p i {
     padding: 20px;
   }
 
+  .intro {
+    color: #777777;
+  }
+
   .rap-container {
     display: flex;
     flex-direction: column;
@@ -411,7 +418,7 @@ footer p i {
     overflow: hidden;
     background-size: 100%;
     width: 100%;
-    background: url(images/mobile\ view.png) no-repeat center / cover;
+    background: url(images/new.png) no-repeat center / cover;
   }
  
   .div {
@@ -445,6 +452,7 @@ footer p i {
     grid-template-columns: repeat(auto-fill, minmax(150px, 2fr));
     gap: 16px;
   }
+
 
   .cench {
     text-align: center;
@@ -509,3 +517,9 @@ footer p i {
     font-size: 14px;
   }
 }
+  
+
+  @media (min-width: 600px) and (max-width: 1024px) {
+    
+  }
+
