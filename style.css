@@ -477,12 +477,17 @@ footer p i {
     padding: 20px 10px;
     margin: 10px auto;
     display: block;
+   
   }
 
   .content {
     flex-direction: column;
     align-items: center;
+   
   }
+
+
+
 
   /* adjusting the header for artist info */
   header .artistinfo {
