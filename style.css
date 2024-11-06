@@ -541,6 +541,55 @@ footer p i {
   
 
   @media (min-width: 600px) and (max-width: 1024px) {
-    
+    .streaming-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 3fr));
+    gap: 16px;
+  }
+
+  .cench img {
+    width: 170px;
+    height: 200px;
+  }
+
+   footer {
+    width: 200wv;
+    font-size: 16px;
+  }
+
+   .contact-form {
+    width: 90%;
+    padding: 30px;
+    margin: 30px auto;
+  }
+
+  .phrase {
+    width: 120vw;
+    height: 100vh;
+    overflow: hidden;
+    background-size: 100%;
+    width: 100%;
+    background: url(images/new5.png) no-repeat center / cover;
+  }
+
+
+ 
+   .rap-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .rap-container iframe {
+    width: 90%;
+    height: 300px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  .intro {
+    color: #777777;
+  }
+
   }
 
