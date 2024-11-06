@@ -43,7 +43,17 @@ nav {
   transition: 0.3s ease-in;
 }
 
+.rap-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
 button {
+  margin: 10px;
   padding: 10px 20px;
   border: none;
   color: white;
@@ -414,7 +424,7 @@ footer p i {
     color: #777777;
   }
 
-  .rap-container {
+  /* .rap-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -426,7 +436,17 @@ footer p i {
     height: 300px;
     margin-bottom: 10px;
     align-items: center;
-  }
+  } */
+
+  .rap-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
 
   .phrase {
     width: 120vw;
@@ -573,7 +593,7 @@ footer p i {
 
 
  
-   .rap-container {
+   /* .rap-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -585,7 +605,16 @@ footer p i {
     height: 300px;
     margin-bottom: 10px;
     align-items: center;
-  }
+  } */
+
+  .rap-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 2fr));
+  grid-gap: 8px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
 
   .intro {
     color: #777777;
