@@ -373,6 +373,20 @@ footer p i {
   .open{
     right: 70px;
   }
+
+  .open:hover{
+    width: 30px;
+    color: #777777;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .close:hover{
+    width: 30px;
+    color: #777777;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
   #check:checked ~ .link {
     right: 0;
   }
