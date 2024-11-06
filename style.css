@@ -30,7 +30,7 @@ nav {
 .link li a {
   padding: 0 20px;
   text-decoration: none;
-  color: rgb(180, 132, 132);
+  color: rosybrown;
   font-size: 19px;
   text-align: center;
   position: relative;
@@ -43,7 +43,7 @@ nav {
   transition: 0.3s ease-in;
 }
 
-.rap-container{
+.rap-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   grid-gap: 10px;
@@ -57,9 +57,15 @@ button {
   padding: 10px 20px;
   border: none;
   color: white;
-  border-radius: 50px;
   background-color: black;
+  border-radius: 50px;
   margin: 4px 70px;
+}
+
+button:hover {
+  background-color: rosybrown;
+  opacity: 0.5;
+  transition: all 0.5s ease-in;
 }
 
 .phrase {
@@ -87,18 +93,8 @@ button {
 .yo a {
   text-decoration: none;
   color: whitesmoke;
-  background-color: black;
   font-size: 19px;
 }
-
-.yo a:hover {
-  text-decoration: none;
-  opacity: 0.8;
-  color:  rgb(180, 132, 132);
-  
-  transition: 0.3s ease-in;
-}
-
 
 .to {
   color: rosybrown;
@@ -277,7 +273,7 @@ div.div:hover div.image img {
 
 .but {
   padding: 15px 30px;
-  background-color:  black;
+  background-color: black;
   color: white;
   border: none;
   cursor: pointer;
@@ -314,7 +310,7 @@ footer p {
 }
 
 footer p i {
-  color: rgb(180, 132, 132);
+  color: rosybrown;
 }
 
 #check {
@@ -342,10 +338,7 @@ footer p i {
 
 /* mobile view smaller than 768px */
 
-
-@media (max-width: 768px)  {
-  
-
+@media (max-width: 768px) {
   .link {
     flex-direction: column;
     align-items: center;
@@ -361,12 +354,11 @@ footer p i {
   }
 
   * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
 
   .link li {
     margin-top: 40px;
@@ -380,18 +372,18 @@ footer p i {
     display: block;
   }
 
-  .open{
+  .open {
     right: 70px;
   }
 
-  .open:hover{
+  .open:hover {
     width: 30px;
     color: #777777;
     border-radius: 50px;
     transition: all 0.3s ease-in-out;
   }
 
-  .close:hover{
+  .close:hover {
     width: 30px;
     color: #777777;
     border-radius: 50px;
@@ -438,15 +430,14 @@ footer p i {
     align-items: center;
   } */
 
-  .rap-container{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  grid-gap: 10px;
-  justify-content: center;
-  align-items: center;
-  padding-top: 20px;
-}
-
+  .rap-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
 
   .phrase {
     width: 120vw;
@@ -456,7 +447,7 @@ footer p i {
     width: 100%;
     background: url(images/new5.png) no-repeat center / cover;
   }
- 
+
   .div {
     padding: 40px 20px;
   }
@@ -489,7 +480,6 @@ footer p i {
     gap: 16px;
   }
 
-
   .cench {
     text-align: center;
     padding: 10px;
@@ -513,17 +503,12 @@ footer p i {
     padding: 20px 10px;
     margin: 10px auto;
     display: block;
-   
   }
 
   .content {
     flex-direction: column;
     align-items: center;
-   
   }
-
-
-
 
   /* adjusting the header for artist info */
   header .artistinfo {
@@ -558,10 +543,9 @@ footer p i {
     font-size: 14px;
   }
 }
-  
 
-  @media (min-width: 600px) and (max-width: 1024px) {
-    .streaming-container {
+@media (min-width: 600px) and (max-width: 1024px) {
+  .streaming-container {
     grid-template-columns: repeat(auto-fill, minmax(200px, 3fr));
     gap: 16px;
   }
@@ -571,12 +555,12 @@ footer p i {
     height: 200px;
   }
 
-   footer {
+  footer {
     width: 200wv;
     font-size: 16px;
   }
 
-   .contact-form {
+  .contact-form {
     width: 90%;
     padding: 30px;
     margin: 30px auto;
@@ -591,9 +575,7 @@ footer p i {
     background: url(images/new5.png) no-repeat center / cover;
   }
 
-
- 
-   /* .rap-container {
+  /* .rap-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -607,18 +589,73 @@ footer p i {
     align-items: center;
   } */
 
-  .rap-container{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 2fr));
-  grid-gap: 8px;
-  justify-content: center;
-  align-items: center;
-  padding-top: 20px;
-}
+  .rap-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 2fr));
+    grid-gap: 8px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
 
   .intro {
     color: #777777;
   }
 
+  .open,
+  .close {
+    display: block;
   }
 
+  .open {
+    right: 100px;
+  }
+
+  .open:hover {
+    width: 30px;
+    color: #777777;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .close:hover {
+    width: 30px;
+    color: #777777;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  #check:checked ~ .link {
+    right: 0;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav {
+    padding: 10px 20px;
+    width: 106vw;
+  }
+
+  .link {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+    background-color: #29323c;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .link li {
+    margin-top: 40px;
+  }
+  .link li a {
+    padding: 15px;
+    font-size: 25px;
+  }
+}
