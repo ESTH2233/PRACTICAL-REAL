@@ -69,8 +69,9 @@ button {
   color: white;
   background-color: black;
   border-radius: 50px;
-  margin: 4px 70px;
-}
+ /* margin: 4px 70px; */
+ margin: auto;
+} 
 button a {
   text-decoration: none;
   color: whitesmoke;
